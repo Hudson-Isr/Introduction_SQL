@@ -57,3 +57,11 @@ ORDER BY ListPrice DESC
 SELECT TOP 10 ProductID
 FROM Production.Product
 ORDER BY ListPrice DESC
+
+-- Challenge
+-- Obter o nome e numero de produto dos produtos que tem em ProductID entre 1~4
+-- Get the name and product number of the products that have in ProductID between 1~4
+
+SELECT TOP 4 name, productNumber
+FROM Production.Product
+ORDER BY ProductID
